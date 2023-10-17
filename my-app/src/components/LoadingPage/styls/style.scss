@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+.loading{
+    padding: 50px 0;
+    @media(max-width:400px){
+        padding: 30px 0;
+    }
+    .inner{
+
+
+        .content{
+            .rock{
+                &:first-of-type{
+                    font-size: 20px;
+                    @media(max-width: 320px){
+                        font-size: 17px;
+                    }
+                }
+
+                &.tit{
+                    font-size: 42px;
+                    color: var(--clr-navy);
+                    line-height: 55px;
+                    @media(max-width:767px){
+                        font-size: 40px;
+                    }
+                    @media(max-width:500px){
+                        font-size: 30px;
+                    }
+                    @media(max-width:320px){
+                        font-size: 25px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+
+            .btns{
+                margin: 30px 0 40px;
+                button{
+                    font-weight: 600;
+                    padding: 5px 15px;
+                    border-radius: 10px;
+                    &.order{
+                        color: #fff;
+
+                        &:hover{
+                            background-color: #212245;
+                        }
+                        i{
+                           top: 3px;
+                           
+                        }
+                    }
+
+                    &.all-foods{
+                        border: 1px solid var(--clr-red);
+                        color: red;
+                        &:hover{
+                            color: blue;
+                        }
+                    }
+
+                    @media(max-width: 320px){
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .details{
+                @media(max-width:600px){
+                    flex-direction: column;
+                }
+                .box{
+                    .icon{
+                            width: 30px;
+                            height: 30px;
+                        i{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }        
+
+        .pic{
+            img{
+                width: 100%;
+            }
+            @media(max-width:1200px){
+                display: none;
+            }
+        }
+    }
+}

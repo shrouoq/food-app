@@ -1,0 +1,30 @@
+.serve{
+    .inner{
+        .titl{
+            font-size: 20px;
+        }
+
+        .serve-h1{
+            font-size: 35px;
+            color: var(--clr-navy);
+            @media(max-width:500px){
+                font-size: 28px;
+            }
+        }
+    }
+
+    .features{
+        padding: 70px 0;
+        .box{
+            img{
+                width: 70px;
+            }
+            .feach-titl{
+                padding: 10px 0;
+            }
+            .text{
+                max-width: 250px;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.cart-item{
+    &:not(:last-child){
+        margin-bottom: 0;
+    }
+    i{
+        cursor: pointer;
+    }
+    .cart-data{
+        .pic{
+            margin-right: 25px;
+            img{
+                width: 50px;
+            }
+        }
+
+        .data{
+            h6{
+                font-size: 15px;
+            }
+            .quantity{
+                background-color: var(--light-red);
+                padding: 3px;
+                border-radius: 5px;
+            }
+        }
+    }
+}

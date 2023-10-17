@@ -1,0 +1,30 @@
+.check-cart .cheack .form input {
+  margin-bottom: 15px;
+  padding: 8px 10px;
+  border: none;
+  border-bottom: 1px solid rgba(33, 34, 69, 0.2980392157);
+  background-color: transparent;
+  outline: none;
+}
+.check-cart .cheack .form input::-moz-placeholder {
+  color: rgba(13, 12, 12, 0.4705882353);
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.check-cart .cheack .form input::placeholder {
+  color: rgba(13, 12, 12, 0.4705882353);
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.check-cart .cheack .form button {
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.check-cart .cheack .total {
+  background-color: var(--light-red);
+  border-radius: 10px;
+}
+.check-cart .cheack .total .inner {
+  border-bottom: 1px solid rgba(70, 71, 87, 0.2980392157);
+}/*# sourceMappingURL=style.css.map */

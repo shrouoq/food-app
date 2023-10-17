@@ -1,0 +1,38 @@
+.product{
+    border: 1px solid var(--light-red);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    .pic{
+        &:hover{
+            img{
+                transform: scale(1.2);
+            }
+        }
+        img{
+            transition: .5s;
+        }
+    }
+    .link{
+        margin: 30px 0;
+        font-weight: 600;
+        .a{
+            color: black;
+            font-size: 16px;
+        }
+    }
+    .price-box{
+        p{
+            margin: 0;
+            font-size: 19px;
+        }
+
+        button{
+            padding: 8px 10px;
+            color: #fff;
+            font-size: 14px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.slider {
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .slider {
+    width: 95%;
+  }
+}
+.slider .secon-text {
+  font-size: 13px;
+}
+.slider .pic-box img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .slider .pic-box img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.slider .pic-box h5 {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+.slider-box{
+    margin: 70px 0;
+    .pics-slider{
+        .slider{
+            margin-top:0;
+            .small{
+                width: 100px;
+                div{
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .big{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+        .data{
+            h2{
+                color: var(--clr-navy);
+            }
+            .price{
+                span{
+                    margin-left: 15px;
+                }
+            }
+            .category{
+                color: var(--clr-navy);
+                span{
+                    background-color: var(--light-red);
+                    padding: 5px 13px;
+                    border-radius: 5px;
+                    margin-left: 15px;
+                }
+            }
+            button{
+                padding: 5px 15px;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .review{
+        .btns{
+            border-bottom: 1px solid var(--light-red);
+            button{
+                &.active{
+                    color: var(--clr-red);
+                }
+            }
+        }
+
+        .details{
+            .description{
+                color: gray;
+                font-size: 15px;
+                line-height: 1.8;
+            }
+
+            .form{
+                .box{
+                    background-color: var(--light-red);
+                    border-radius: 10px;
+                    padding: 15px;
+                    input,textarea{
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        border-bottom: 1px solid rgb(160, 160, 160);
+                        padding: 5px;
+                        margin-bottom: 15px;
+                        &::placeholder{
+                            text-transform: capitalize;
+                            font-size: 15px;
+                        }
+                    }
+                    textarea{
+                        resize: none;
+                        @media(max-width:400px){
+                            height: 150px;
+                        }
+                    }
+                    button{
+                        padding: 5px 15px;
+                        border-radius: 10px;
+                        color: #fff;
+                        text-transform: capitalize;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.products-table table {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .products-table table {
+    font-size: 12px;
+  }
+}
+.products-table table, .products-table table th, .products-table table td {
+  border: 1px solid rgb(216, 216, 216);
+}
+.products-table table th {
+  border-bottom: 3px solid #000;
+}
+.products-table table td {
+  padding: 10px;
+  text-align: center;
+}
+.products-table table td img {
+  width: 70px;
+}
+@media (max-width: 991px) {
+  .products-table table td img {
+    width: 50px;
+  }
+}
+.products-table table td span {
+  cursor: pointer;
+}
+.products-table .totalPrice-details p {
+  font-size: 15px;
+}
+@media (max-width: 750px) {
+  .products-table .totalPrice-details .btns {
+    flex-direction: column;
+  }
+}
+.products-table .totalPrice-details .btns button {
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.products-table .totalPrice-details .btns button .btn-link {
+  color: #fff;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

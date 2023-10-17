@@ -1,0 +1,18 @@
+.filter .btns {
+  border-radius: 10px;
+  height: 60px;
+}
+.filter .btns button {
+  color: #fff;
+  font-weight: 500;
+}
+.filter .btns button img {
+  width: 20px;
+  margin-right: 10px;
+}
+.filter .btns button.active {
+  background: #fff;
+  color: var(--clr-red);
+  padding: 8px 15px;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */

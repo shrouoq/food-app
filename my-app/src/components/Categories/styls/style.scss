@@ -1,0 +1,15 @@
+.categories{
+    padding: 60px 0;
+    .inner{
+        .box{
+            background: var(--light-red);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                transform: translateY(-20px);
+            }
+        }
+        
+    }
+}

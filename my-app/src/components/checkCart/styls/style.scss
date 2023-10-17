@@ -1,0 +1,32 @@
+.check-cart{
+        .cheack{
+            .form{
+                input{
+                    margin-bottom: 15px;
+                    padding: 8px 10px;
+                    border: none;
+                    border-bottom: 1px solid #2122454c;
+                    background-color: transparent;
+                    outline: none;
+                    &::placeholder{
+                        color: #0d0c0c78;
+                        text-transform: capitalize;
+                        font-size: 16px;
+                    }
+                }
+                button{
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+
+            .total{
+                background-color: var(--light-red);
+                border-radius: 10px;
+                .inner{
+                    border-bottom: 1px solid #4647574c;
+                }
+            }
+        }
+}

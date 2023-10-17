@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+.loading {
+  padding: 50px 0;
+}
+@media (max-width: 400px) {
+  .loading {
+    padding: 30px 0;
+  }
+}
+.loading .inner .content .rock:first-of-type {
+  font-size: 20px;
+}
+@media (max-width: 320px) {
+  .loading .inner .content .rock:first-of-type {
+    font-size: 17px;
+  }
+}
+.loading .inner .content .rock.tit {
+  font-size: 42px;
+  color: var(--clr-navy);
+  line-height: 55px;
+}
+@media (max-width: 767px) {
+  .loading .inner .content .rock.tit {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .loading .inner .content .rock.tit {
+    font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .loading .inner .content .rock.tit {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+.loading .inner .content .btns {
+  margin: 30px 0 40px;
+}
+.loading .inner .content .btns button {
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.loading .inner .content .btns button.order {
+  color: #fff;
+}
+.loading .inner .content .btns button.order:hover {
+  background-color: #212245;
+}
+.loading .inner .content .btns button.order i {
+  top: 3px;
+}
+.loading .inner .content .btns button.all-foods {
+  border: 1px solid var(--clr-red);
+  color: red;
+}
+.loading .inner .content .btns button.all-foods:hover {
+  color: blue;
+}
+@media (max-width: 320px) {
+  .loading .inner .content .btns button {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  .loading .inner .content .details {
+    flex-direction: column;
+  }
+}
+.loading .inner .content .details .box .icon {
+  width: 30px;
+  height: 30px;
+}
+.loading .inner .content .details .box .icon i {
+  color: #fff;
+}
+.loading .inner .pic img {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .loading .inner .pic {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root{
+  --clr-red:rgb(216, 8, 8);
+  --light-red:hsl(0, 86%, 94%);
+  --clr-navy:#212245;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #fcfcfc !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+p,h1{
+  margin: 0;
+  padding: 0;
+}
+
+.rock{
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.font-red{
+  color: rgb(216, 8, 8);
+}
+
+.back-red{
+  background-color: rgb(216, 8, 8);
+}
+
+.secon-text{
+  color: #777;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+@media(max-width:50px){
+  .secon-text{
+    font-size: 13px;
+  }
+} 
+
+.sign .box{
+  background-color: var(--light-red);
+  border-radius: 10px;
+  width: 350px;
+}
+
+@media(max-width:300px){
+  .sign .box{
+    width: 250px;
+  }
+}
+
+.sign .box input{
+  border: none;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  background-color: transparent;
+  width: 100%;
+}
+
+.sign .box input::placeholder{
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.sign .box button{
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.sign .sign-link{
+  color: black;
+  transition: 0.5s;
+}
+
+.sign .sign-link:hover{
+  color: blue;
+}

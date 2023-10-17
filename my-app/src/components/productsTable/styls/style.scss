@@ -1,0 +1,48 @@
+.products-table{
+    table{
+        width: 100%;
+
+        @media(max-width:991px){
+            font-size: 12px;
+        }
+
+        &,th,td{
+            border: 1px solid rgb(216, 216, 216);
+        }
+        th{
+            border-bottom: 3px solid #000;
+        }
+        td{
+            padding: 10px;
+            text-align: center;
+            img{
+                width: 70px;
+                @media(max-width:991px){
+                    width: 50px;
+                }
+            }
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .totalPrice-details{
+        p{
+            font-size: 15px;
+        }
+       .btns{
+        @media(max-width:750px){
+            flex-direction: column;
+        }
+            button{
+                padding: 8px 15px;
+                border-radius: 5px;
+                .btn-link{
+                    color: #fff;
+                    font-size: 15px;
+                }
+            }
+       }
+    }
+}

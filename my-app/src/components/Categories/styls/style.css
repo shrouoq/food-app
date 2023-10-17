@@ -1,0 +1,12 @@
+.categories {
+  padding: 60px 0;
+}
+.categories .inner .box {
+  background: var(--light-red);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.categories .inner .box:hover {
+  transform: translateY(-20px);
+}/*# sourceMappingURL=style.css.map */

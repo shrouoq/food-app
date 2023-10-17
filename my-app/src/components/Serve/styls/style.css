@@ -1,0 +1,24 @@
+.serve .inner .titl {
+  font-size: 20px;
+}
+.serve .inner .serve-h1 {
+  font-size: 35px;
+  color: var(--clr-navy);
+}
+@media (max-width: 500px) {
+  .serve .inner .serve-h1 {
+    font-size: 28px;
+  }
+}
+.serve .features {
+  padding: 70px 0;
+}
+.serve .features .box img {
+  width: 70px;
+}
+.serve .features .box .feach-titl {
+  padding: 10px 0;
+}
+.serve .features .box .text {
+  max-width: 250px;
+}/*# sourceMappingURL=style.css.map */

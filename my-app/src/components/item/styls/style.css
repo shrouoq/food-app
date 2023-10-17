@@ -1,0 +1,20 @@
+.cart-item:not(:last-child) {
+  margin-bottom: 0;
+}
+.cart-item i {
+  cursor: pointer;
+}
+.cart-item .cart-data .pic {
+  margin-right: 25px;
+}
+.cart-item .cart-data .pic img {
+  width: 50px;
+}
+.cart-item .cart-data .data h6 {
+  font-size: 15px;
+}
+.cart-item .cart-data .data .quantity {
+  background-color: var(--light-red);
+  padding: 3px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
